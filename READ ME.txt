@@ -1,0 +1,19 @@
+Carnegie Mellon themed jumping game with doodle jump mechanics, ie jump whenever landed on a platform
+Has a single player component and multiplayer component 
+Single player is simply doodle jump, must jump as high as possible to get a highscore - not too interesting
+Multiplayer component also has the goal of jumping to the top.
+Can interact with other users by firing a bullet at others which will deal 5-15 dmg
+Bullet will also deal a knockback which increases based on the damage already sustained throughout the game
+Death will happen if you drop too far below the last platform jumped on
+When dead, a screen appears and gives you your final score
+
+Requires installation of pillow (PIL for python 2)
+run in command prompt:
+   python -m pip install pillow
+
+Steps to run:
+server1.py is run in a shell in the pyzo interpreter
+doodleClient.py is run in multiple shells (4 at most) in the pyzo interpreter
+restart the server after every time closing out of a window 
+
+video:http://youtu.be/DzOxlwjKtjM?hd=1
